@@ -7,7 +7,6 @@ class ChattyStudent
       any spoilers? Okay well let me just tell you who died..."
   end
   def raise_hand
-    super
-    10.times {puts "Pick me!"}
+    10.times super
   end
 end
